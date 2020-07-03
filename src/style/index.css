@@ -1,0 +1,681 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  height: 140px;
+}
+header .head-top {
+  background: #333333;
+}
+header #head-wraf {
+  width: 1226px;
+  height: 40px;
+  margin: 0 auto;
+}
+header #head-wraf ul {
+  list-style: none;
+  height: 40px;
+}
+header #head-wraf ul li {
+  padding: 0 2px;
+  float: left;
+}
+header #head-wraf ul li a {
+  color: #b0b0b0;
+  line-height: 40px;
+  display: inline-block;
+  font-size: 12px;
+  text-align: center;
+}
+header #head-wraf ul span {
+  display: block;
+  width: 2px;
+  height: 12px;
+  background: #424242;
+  float: left;
+  margin: 14px 0;
+}
+header #head-wraf ul #buycar {
+  display: block;
+  width: 120px;
+  height: 40px;
+  float: right;
+  font-size: 16px;
+  text-align: center;
+  color: #cccccc;
+  line-height: 40px;
+}
+header #head-wraf ul #buycar p {
+  display: inline-block;
+}
+header #head-wraf ul #buycar a {
+  font-size: 16px;
+  text-align: center;
+  color: #cccccc;
+  line-height: 40px;
+}
+header #head-wraf ul #personal {
+  display: block;
+  width: 40px;
+  height: 40px;
+  float: right;
+  font-size: 16px;
+  text-align: center;
+  color: #cccccc;
+  line-height: 40px;
+}
+header #head-wraf ul #personal a {
+  font-size: 16px;
+  text-align: center;
+  color: #cccccc;
+  line-height: 40px;
+}
+header #head-site {
+  width: 1226px;
+  height: 100px;
+  margin: 0 auto;
+}
+header #head-site .head-logo {
+  display: block;
+  width: 140px;
+  height: 60px;
+  margin: 20px 10px;
+  font-size: 20px;
+  color: #f50514;
+  line-height: 40px;
+  font-weight: 800;
+  text-align: center;
+  font-family: MYingHei W5, Roman-55, Microsoft Yahei, sans-serif;
+  float: left;
+}
+header #head-site .head-logo a {
+  width: 140px;
+  height: 60px;
+  color: #f50514;
+}
+header #head-site .head-logo a img {
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+header #head-site .head-con {
+  width: 660px;
+  height: 60px;
+  float: left;
+  padding-left: 100px;
+  position: relative;
+}
+header #head-site .head-con .nav1 {
+  list-style: none;
+  width: 660px;
+  height: 60px;
+}
+header #head-site .head-con .nav1 li {
+  height: 60px;
+  padding: 20px 9px;
+  float: left;
+  line-height: 60px;
+}
+header #head-site .head-con .nav1 li:hover .nav2 {
+  display: block;
+}
+header #head-site .head-con .nav1 li a {
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 60px;
+  height: 60px;
+  min-width: 60px;
+  font-weight: 400;
+  color: #000;
+  text-align: center;
+  cursor: pointer;
+}
+header #head-site .head-con .nav1 li a .series-new {
+  display: inline-block;
+  border: 1px solid #000;
+  line-height: 1;
+  padding: 1px 2px;
+  border-radius: 5px;
+  transform: scale(0.7);
+}
+header #head-site .head-con .nav1 li .nav2 {
+  position: absolute;
+  width: 1226px;
+  height: 120px;
+  top: 60px;
+  left: -183px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+  background: #fff;
+  display: none;
+}
+header #head-site .head-con .nav1 li .nav2 li {
+  display: block;
+  height: 100px;
+}
+header #head-site .head-con .nav1 li .nav2 li :hover {
+  color: #f50514;
+}
+header #head-site .head-con .nav1 li .nav2 li a {
+  position: relative;
+  padding: 0 10px;
+}
+header #head-site .head-con .nav1 li .nav2 li a .iconfont {
+  padding: 0 10px;
+  font-size: 50px;
+  line-height: 60px;
+  float: left;
+  text-align: center;
+}
+header #head-site .head-con .nav1 li .nav2 li a .series-new {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  border: 1px solid #000;
+  line-height: 1;
+  padding: 1px 4px;
+  border-radius: 5px;
+  transform: scale(0.6);
+  font-style: normal;
+}
+header #head-site .head-con .nav1 li .nav2 li a div {
+  display: block;
+}
+header #head-site .head-search {
+  width: 300px;
+  height: 50px;
+  margin: 20px 0;
+  float: right;
+  position: relative;
+}
+header #head-site .head-search .txt {
+  width: 228px;
+  height: 48px;
+  border: 1px solid black;
+  float: left;
+  font-size: 24px;
+  line-height: 48px;
+  color: black;
+  padding: 0 10px;
+}
+header #head-site .head-search .sub {
+  width: 50px;
+  height: 50px;
+  float: left;
+  opacity: 0.7;
+}
+header #head-site .head-search .sub :hover .icon-fangdajing {
+  color: #f50514;
+}
+header #head-site .head-search .icon-fangdajing {
+  position: absolute;
+  top: 0;
+  right: 13px;
+  font-size: 24px;
+  color: black;
+  line-height: 50px;
+  z-index: -1;
+}
+#banner-wraf {
+  width: 1226px;
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+}
+#banner-wraf img {
+  position: absolute;
+  display: block;
+  width: 1226px;
+  height: 300px;
+}
+#banner-wraf p {
+  width: 80px;
+  height: 20px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+#banner-wraf p span {
+  width: 10px;
+  height: 10px;
+  background: #999;
+  border-radius: 50%;
+}
+#banner-wraf u {
+  display: block;
+  width: 40px;
+  height: 60px;
+  font-size: 60px;
+  line-height: 60px;
+  color: #999;
+  position: absolute;
+  top: 120px;
+  right: 0;
+}
+#banner-wraf .lt {
+  left: 0;
+}
+#main-wraf {
+  width: 1226px;
+  margin: 5px auto;
+  background: pink;
+}
+#main-wraf .con1 {
+  height: 600px;
+  background: url(../img/Homepage-KV1_large-BLANK.jpg) no-repeat center;
+  background-size: 200%;
+  position: relative;
+}
+#main-wraf .con1 .txt {
+  position: absolute;
+  width: 425px;
+  height: 230px;
+  left: 180px;
+  top: 190px;
+}
+#main-wraf .con1 .txt h1 {
+  font-size: 34px;
+  line-height: 36px;
+  color: black;
+  text-align: left;
+}
+#main-wraf .con1 .txt h2,
+#main-wraf .con1 .txt h3 {
+  font-size: 20px;
+  line-height: 36px;
+  color: black;
+  text-align: left;
+  margin-bottom: 8px;
+}
+#main-wraf .con1 .txt p {
+  width: 96px;
+  height: 36px;
+  border-radius: 4px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 18px;
+  line-height: 36px;
+  color: black;
+  margin: 10px 0;
+}
+#main-wraf .con1 .txt h4 {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: black;
+}
+#main-wraf .con1 .txt h4:hover {
+  text-decoration: underline;
+}
+#main-wraf .con2 {
+  height: 600px;
+  background: url(../img/8Pro-CN3color_large_1xpng_.jpg) no-repeat center;
+  background-size: 200%;
+  position: relative;
+}
+#main-wraf .con2 .txt {
+  position: absolute;
+  width: 425px;
+  height: 245px;
+  left: 400px;
+  top: 200px;
+}
+#main-wraf .con2 .txt h1 {
+  font-size: 34px;
+  line-height: 36px;
+  color: black;
+  text-align: center;
+}
+#main-wraf .con2 .txt h2,
+#main-wraf .con2 .txt h3 {
+  font-size: 20px;
+  line-height: 36px;
+  color: black;
+  text-align: center;
+  margin-bottom: 8px;
+}
+#main-wraf .con2 .txt p {
+  width: 96px;
+  height: 36px;
+  border-radius: 4px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 18px;
+  line-height: 36px;
+  color: black;
+  margin: 10px auto;
+}
+#main-wraf .con2 .txt h4 {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: black;
+}
+#main-wraf .con2 .txt h4:hover {
+  text-decoration: underline;
+}
+#main-wraf .news {
+  margin: 20px auto 0;
+}
+#main-wraf .news .new1 {
+  width: 600px;
+  height: 500px;
+  background: url(../img/Trade-in-Tile_large.jpg) no-repeat center center;
+  background-size: 200%;
+  float: left;
+}
+#main-wraf .news .new1 h4 {
+  padding-top: 40px;
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: center;
+  color: black;
+}
+#main-wraf .news .new1 h5 {
+  padding-top: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  color: black;
+}
+#main-wraf .news .new2 {
+  width: 600px;
+  height: 500px;
+  background: url(../img/fenqile_large.jpg) no-repeat center center;
+  background-size: 200%;
+  float: right;
+}
+#main-wraf .news .new2 h4 {
+  padding-top: 40px;
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: center;
+  color: black;
+}
+#main-wraf .news .new2 h5 {
+  padding-top: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  color: black;
+}
+#main-wraf .news .new3 {
+  width: 600px;
+  height: 500px;
+  background: url(../img/Student-program-Tile_large.jpg) no-repeat center center;
+  background-size: 200%;
+  float: left;
+}
+#main-wraf .news .new3 h4 {
+  padding-top: 40px;
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: center;
+  color: white;
+}
+#main-wraf .news .new3 h5 {
+  padding-top: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  color: white;
+}
+#main-wraf .news .new3 h6 {
+  padding-top: 6px;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: white;
+}
+#main-wraf .news .new4 {
+  width: 600px;
+  height: 500px;
+  background: url(../img/store_l.jpg) no-repeat center center;
+  background-size: 200%;
+  float: right;
+}
+#main-wraf .news .new4 h4 {
+  padding-top: 40px;
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: center;
+  color: black;
+}
+#main-wraf .news .new4 h5 {
+  padding-top: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  color: black;
+}
+#main-wraf .news .new4 h6 {
+  padding-top: 6px;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: black;
+}
+#smallnews {
+  background: #ccc;
+  margin: 1060px auto 0;
+}
+#smallnews .smallnews {
+  width: 1033px;
+  height: 383px;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+#smallnews .smallnews div {
+  width: 314px;
+  height: 362px;
+  margin: 10px;
+  box-sizing: border-box;
+  background: #fff;
+  transition: all 0.3s;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  line-height: 1.5;
+  color: #000;
+}
+#smallnews .smallnews div img {
+  width: 314px;
+  height: 180px;
+}
+#smallnews .smallnews div p {
+  height: 24px;
+  font-size: 1pc;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #666;
+  text-align: left;
+  padding: 24px;
+}
+#smallnews .smallnews div b {
+  font-size: 18px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #000;
+  margin-top: 10px;
+  text-align: left;
+  padding: 0 20px;
+}
+#smallnews .smallnews div u {
+  color: #09c;
+  font-family: MYingHei W5, Roman-55, Microsoft Yahei, sans-serif;
+  padding-right: 15px;
+  transition: padding-right 0.3s ease-in 0.1ms !important;
+  line-height: 1.5;
+  font-size: 16px;
+  border-radius: 4px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  text-align: left;
+  padding: 20px;
+}
+#baozhang-wraf {
+  width: 1200px;
+  height: 136px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 0 50px;
+}
+#baozhang-wraf a {
+  display: block;
+}
+#baozhang-wraf a h4 {
+  font-size: 42px;
+  line-height: 90px;
+  text-align: center;
+  color: black;
+}
+#baozhang-wraf a h5 {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: black;
+}
+footer {
+  border-top: 1px solid #ccc;
+}
+footer .container-text {
+  width: 1200px;
+  height: 340px;
+  margin: 0 auto;
+}
+footer .container-text dl {
+  width: 20%;
+  float: left;
+}
+footer .container-text dl dt {
+  padding: 0 20px;
+  font-size: 1pc;
+  height: 50px;
+  line-height: 50px;
+  position: relative;
+  color: #000;
+  font-family: MYingHei W5, Roman-55, Microsoft Yahei, sans-serif;
+}
+footer .container-text dl dd {
+  height: auto;
+  overflow: hidden;
+  transition: height 0.3s;
+  padding: 0 20px;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 1pc;
+}
+footer .container-text dl dd ul {
+  padding-bottom: 10px;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 1pc;
+  font-family: MYingHei W5, Roman-55, Microsoft Yahei, sans-serif;
+  line-height: 1.5;
+}
+footer .container-text dl dd ul li {
+  padding: 8px 0;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 1pc;
+  font-family: MYingHei W5, Roman-55, Microsoft Yahei, sans-serif;
+  line-height: 1.5;
+}
+footer .container-text dl dd ul li a {
+  color: #828282;
+  display: block;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 1pc;
+  font-family: MYingHei W5, Roman-55, Microsoft Yahei, sans-serif;
+  line-height: 1.5;
+}
+footer .container-text dl dd ul li a:hover {
+  color: black;
+}
+footer .contact-us {
+  padding: 20px;
+  width: 1160px;
+  height: 40px;
+  margin: 0 auto;
+}
+footer .contact-us .retailer-entry {
+  float: left;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  font-family: MYingHei W5, Roman-55, Microsoft Yahei, sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+  color: black;
+}
+footer .contact-us .retailer-entry a {
+  color: #09c;
+}
+footer .contact-us .customer-support {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  float: right;
+  font-family: MYingHei W5, Roman-55, Microsoft Yahei, sans-serif;
+  font-size: 1pc;
+  line-height: 1.5;
+  color: #000;
+}
+footer .contact-us .customer-support .btn-container {
+  display: inline-block;
+  margin: 0;
+  padding-left: 1em;
+  vertical-align: middle;
+}
+footer .contact-us .customer-support .btn-container span {
+  color: #09c;
+  float: left;
+}
+footer .contact-us .customer-support .btn-container p {
+  padding-right: 1em;
+  font-size: 14px;
+  color: #222;
+  display: inline-block;
+  margin: 0;
+  padding-left: 1em;
+  vertical-align: middle;
+  font-family: MYingHei W5, Roman-55, Microsoft Yahei, sans-serif;
+}
+footer .contact-us .customer-support .btn-container .link {
+  position: relative;
+  display: inline-block;
+  color: #828282;
+  background-color: transparent;
+  text-decoration: none;
+  line-height: 1.5;
+  font-weight: 400;
+}
+footer .contact-us .customer-support .btn-container .link .link-wechat {
+  position: relative;
+}
+footer .contact-us .customer-support .btn-container .link .link-wechat img {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: -120px;
+  left: -35px;
+}

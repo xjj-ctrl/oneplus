@@ -1,0 +1,728 @@
+header #head-site {
+  width: 1226px;
+  height: 60px;
+  margin: 0 auto;
+}
+header #head-site .head-logo {
+  display: block;
+  width: 140px;
+  height: 60px;
+  margin: 20px 10px;
+  font-size: 20px;
+  color: #f50514;
+  line-height: 40px;
+  font-weight: 800;
+  text-align: center;
+  font-family: MYingHei W5, Roman-55, Microsoft Yahei, sans-serif;
+  float: left;
+}
+header #head-site .head-logo a {
+  width: 140px;
+  height: 60px;
+  color: #f50514;
+}
+header #head-site .head-logo a img {
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+header #head-site .head-con {
+  width: 660px;
+  height: 60px;
+  float: left;
+  padding-left: 100px;
+  position: relative;
+}
+header #head-site .head-con .nav1 {
+  list-style: none;
+  width: 660px;
+  height: 60px;
+}
+header #head-site .head-con .nav1 li {
+  height: 60px;
+  padding: 5px 9px;
+  float: left;
+  line-height: 60px;
+}
+header #head-site .head-con .nav1 li:hover .nav2 {
+  display: block;
+}
+header #head-site .head-con .nav1 li a {
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 60px;
+  height: 60px;
+  min-width: 60px;
+  font-weight: 400;
+  color: #000;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+}
+header #head-site .head-con .nav1 li a .series-new {
+  display: inline-block;
+  border: 1px solid #000;
+  line-height: 1;
+  padding: 1px 2px;
+  border-radius: 5px;
+  transform: scale(0.7);
+}
+header #head-site .head-con .nav1 li .nav2 {
+  position: absolute;
+  display: block;
+  width: 1226px;
+  height: 120px;
+  top: 60px;
+  left: -183px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+  background: #fff;
+  display: none;
+}
+header #head-site .head-con .nav1 li .nav2 li {
+  display: block;
+  height: 100px;
+}
+header #head-site .head-con .nav1 li .nav2 li :hover {
+  color: #f50514;
+}
+header #head-site .head-con .nav1 li .nav2 li a {
+  position: relative;
+  padding: 0 10px;
+}
+header #head-site .head-con .nav1 li .nav2 li a .iconfont {
+  padding: 0 10px;
+  font-size: 50px;
+  line-height: 60px;
+  float: left;
+  text-align: center;
+}
+header #head-site .head-con .nav1 li .nav2 li a .series-new {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  border: 1px solid #000;
+  line-height: 1;
+  padding: 1px 4px;
+  border-radius: 5px;
+  transform: scale(0.6);
+  font-style: normal;
+}
+header #head-site .head-con .nav1 li .nav2 li a div {
+  display: block;
+}
+#main {
+  width: 1200px;
+  margin: 60px auto 0;
+}
+#main .bp-side-l {
+  width: 550px;
+  height: 710px;
+  float: left;
+}
+#main .bp-side-l img {
+  width: 550px;
+  height: 574px;
+  position: sticky;
+  bottom: 0;
+}
+#main .bp-side-r {
+  width: 600px;
+  height: 710px;
+  float: right;
+}
+#main .bp-side-r .main-tit-head {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+#main .bp-side-r .main-tit-head h1 {
+  font-size: 24px;
+  display: inline-block;
+  font-weight: 400;
+  color: #212121;
+  margin-right: 20px;
+  font-family: MYingHei W5, Roman-55, Microsoft Yahei, sans-serif;
+  line-height: 1.5;
+}
+#main .bp-side-r .main-tit-head h4 {
+  margin-top: 20px;
+  width: 100%;
+  font-weight: 400;
+  font-family: MYingHei W5, Roman-55, Microsoft Yahei, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #10181f;
+}
+#main .bp-side-r .main-tit-foot {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+#main .bp-side-r .main-tit-foot h5 {
+  padding-left: 10px;
+  color: #eb0028;
+  text-overflow: ellipsis;
+  display: block;
+  width: 80%;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: MYingHei W5, Roman-55, Microsoft Yahei, sans-serif;
+  font-size: 14px;
+  line-height: 40px;
+  font-weight: 600;
+}
+#main .bp-side-r .main-tit-foot h6 {
+  color: #09c;
+  display: inline;
+  position: relative;
+  overflow: visible;
+  font-family: MYingHei W5, Roman-55, Microsoft Yahei, sans-serif;
+  font-size: 14px;
+  line-height: 40px;
+}
+#main .bp-side-r .phone-gift {
+  color: #10181f;
+  line-height: 1.5;
+  height: 309px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+#main .bp-side-r .phone-gift .bp-cm-tit {
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+  font-family: "MYingHei W5", SlateForOnePlusRegular, "Microsoft YaHei", Arial, sans-serif;
+}
+#main .bp-side-r .phone-gift ul {
+  padding: 15px 0 0;
+  margin-right: -20px;
+  margin-left: 1px;
+  font-family: "MYingHei W5", SlateForOnePlusRegular, "Microsoft YaHei", Arial, sans-serif;
+  color: #10181f;
+  line-height: 1.5;
+}
+#main .bp-side-r .phone-gift ul li {
+  margin: 10px 20px 10px 0;
+  box-sizing: border-box;
+  width: 46%;
+  height: 60px;
+  line-height: 60px;
+  background: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: border 0.2s;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid transparent;
+  border-radius: 4px;
+  text-align: center;
+  position: relative;
+  float: left;
+  font-family: "MYingHei W5", SlateForOnePlusRegular, "Microsoft YaHei", Arial, sans-serif;
+  color: #10181f;
+}
+#main .bp-side-r .phone-gift ul .active {
+  border: 2px solid #eb0028;
+}
+#main .bp-side-r .bp-con {
+  height: 150px;
+  padding: 15px 0 0;
+}
+#main .bp-side-r .bp-con .bp-cm-tit {
+  line-height: 24px;
+  color: #333;
+  float: left;
+}
+#main .bp-side-r .bp-con a {
+  font-size: 14px;
+  color: #09c;
+  background-color: transparent;
+  text-decoration: none;
+  line-height: 24px;
+  font-family: "MYingHei W5", SlateForOnePlusRegular, "Microsoft YaHei", Arial, sans-serif;
+  font-weight: 400;
+  float: right;
+}
+#main .bp-side-r .bp-con .trade-add {
+  font-family: "MYingHei W5", SlateForOnePlusRegular, "Microsoft YaHei", Arial, sans-serif;
+  color: #10181f;
+  font-weight: 400;
+  line-height: 1.5;
+}
+#main .bp-side-r .bp-con .trade-add .trade-con {
+  width: 600px;
+  display: flex;
+  padding: 10px 20px;
+  margin: 30px 10px 0 0;
+  align-items: center;
+  background: #fff;
+  box-sizing: border-box;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
+  font-family: "MYingHei W5", SlateForOnePlusRegular, "Microsoft YaHei", Arial, sans-serif;
+  color: #10181f;
+  font-weight: 400;
+  line-height: 1.5;
+}
+#main .bp-side-r .bp-con .trade-add .trade-con .trade-l {
+  flex: 1;
+  color: #10181f;
+}
+#main .bp-side-r .bp-con .trade-add .trade-con .trade-l p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #10181f;
+}
+#main .bp-side-r .bp-con .trade-add .trade-con .trade-l .text {
+  color: #999;
+}
+#main .bp-side-r .bp-con .trade-add .trade-con .trade-r {
+  font-size: 14px;
+  color: #09c;
+  font-family: "MYingHei W5", SlateForOnePlusRegular, "Microsoft YaHei", Arial, sans-serif;
+  line-height: 1.5;
+}
+.cube {
+  transform: translateZ(30px) translateX(-50%);
+  height: 60px;
+  line-height: 60px;
+  position: absolute;
+  width: 100%;
+  top: -30px;
+  left: 50%;
+  box-shadow: 0 7px 5px -1px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  overflow: hidden;
+  font-size: 14px;
+  background: #f5f5f5;
+  position: relative;
+  z-index: 2;
+  font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -moz-transition: height 0.6s ease;
+  -o-transition: height 0.6s ease;
+  -webkit-transition: height 0.6s ease;
+  transition: height 0.6s ease;
+}
+.cube .w1200 {
+  width: 1200px;
+  margin: 0 auto;
+}
+.cube .w1200 .nav-title {
+  left: 23px;
+  font-size: 18px;
+  height: 60px;
+  line-height: 60px;
+  display: block;
+  color: #10181f;
+  float: left;
+}
+.cube .w1200 ul {
+  margin: 0;
+  margin-right: 100px;
+  height: 60px;
+  line-height: 60px;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  text-align: right;
+  font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #10181f;
+  float: right;
+}
+.cube .w1200 ul li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  line-height: 60px;
+  text-align: right;
+  color: #10181f;
+  font-weight: 400;
+}
+.cube .w1200 ul li a {
+  color: #000;
+  height: 60px;
+  line-height: 60px;
+  display: inline-block;
+  vertical-align: midde;
+  padding: 0 15px;
+  font-family: MYingHei W5, Roman-55, Microsoft Yahei, sans-serif;
+  font-size: 14px;
+  background-color: transparent;
+  text-decoration: none;
+  text-align: right;
+}
+.cube .w1200 .nav-buy-btn-list {
+  display: block;
+  border-left: 2px solid #999;
+  margin-left: 15px;
+  padding-left: 30px;
+  margin-top: 23px;
+  line-height: 14px;
+  font-size: 14px;
+  text-align: right;
+  font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #10181f;
+  font-weight: 400;
+  float: right;
+}
+.cube .w1200 .nav-buy-btn-list a {
+  color: #09c;
+  background-color: transparent;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  line-height: 1.3;
+  font-family: MYingHei W5, Roman-55, Microsoft Yahei, sans-serif;
+  text-align: right;
+  font-weight: 400;
+}
+.cube-float {
+  background: #fff;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #e5e5e5;
+  position: fixed;
+  bottom: 0;
+  z-index: 10000;
+  width: 100%;
+  right: 0;
+  height: 60px;
+  line-height: 60px;
+  font-family: "MYingHei W5", SlateForOnePlusRegular, "Microsoft YaHei", Arial, sans-serif;
+  color: #10181f;
+  font-weight: 400;
+}
+.cube-float .support-bar {
+  float: left;
+  margin-left: 14vw;
+  font-size: 14px;
+  line-height: 60px;
+  padding: 0;
+  color: #10181f;
+  font-weight: 400;
+}
+.cube-float .support-bar .support-title {
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
+  font-family: MYingHei W5, Roman-55, Microsoft Yahei, sans-serif;
+  line-height: 1.5;
+}
+.cube-float .support-bar .logo {
+  margin-left: 10px;
+  display: inline-block;
+  font-family: MYingHei W5, Roman-55, Microsoft Yahei, sans-serif;
+  color: #10181f;
+  font-weight: 400;
+  padding-left: 20px;
+}
+.cube-float .support-bar .hb {
+  background: no-repeat left center url(https://image01.oneplus.cn/shop/201808/29/334/bcce73384bdc3427ea508e645fbf861c.png);
+  background-size: 20px 20px;
+}
+.cube-float .support-bar .bt {
+  background: no-repeat left center url(https://image01.oneplus.cn/shop/201811/12/299/a53b5c8af51789122c7348ec14cfa611.png);
+  background-size: 20px 20px;
+}
+.cube-float .support-bar .fql {
+  background: no-repeat left center url(https://image01.oneplus.cn/shop/202003/11/391/1127e86b7a0e1353293236cb6b833048.png);
+  background-size: 20px 20px;
+}
+.cube-float .support-bar .sv {
+  background: no-repeat left center url(https://image01.oneplus.net/shop/201808/30/1979/751b2ad4fb6bdceb6829fe1655c054b7.png);
+  background-size: 20px 20px;
+}
+.cube-float .support-bar .sf {
+  background: no-repeat left center url(https://image01.oneplus.cn/shop/201808/29/278/fb16a0383e9d1c4f899ab94a52eb5910.png);
+  background-size: 20px 20px;
+}
+.cube-float .buynow {
+  width: 410px;
+  height: 60px;
+  float: right;
+  margin-right: 14vw;
+  line-height: 60px;
+  font-family: "MYingHei W5", SlateForOnePlusRegular, "Microsoft YaHei", Arial, sans-serif;
+  color: #10181f;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.cube-float .buynow .goods-detail {
+  font-size: 14px;
+  position: relative;
+  top: 2px;
+  color: #666;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 60px;
+  font-family: "MYingHei W5", SlateForOnePlusRegular, "Microsoft YaHei", Arial, sans-serif;
+}
+.cube-float .buynow .goods-detail .title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: #666;
+  white-space: nowrap;
+  line-height: 60px;
+  font-family: "MYingHei W5", SlateForOnePlusRegular, "Microsoft YaHei", Arial, sans-serif;
+  font-weight: 400;
+}
+.cube-float .buynow .goods-detail .title:hover .con {
+  display: block;
+}
+.cube-float .buynow .goods-detail .title .con {
+  display: none;
+  width: 34vw;
+  right: 19%;
+  position: fixed;
+  bottom: 62px;
+  background-color: #fff;
+  height: 150px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+  color: #666;
+  white-space: nowrap;
+  line-height: 150px;
+  font-family: "MYingHei W5", SlateForOnePlusRegular, "Microsoft YaHei", Arial, sans-serif;
+  font-weight: 400;
+  justify-content: space-between;
+  text-align: center;
+}
+.cube-float .buynow .goods-detail .title .con span {
+  padding: 0 30px;
+  font-weight: 700;
+}
+.cube-float .buynow .goods-detail .title .choose-arrow ::before {
+  content: "";
+  width: 10px;
+  height: 2px;
+  background-color: #000;
+  display: inline-block;
+  transform: rotate(45deg);
+  position: absolute;
+  left: 20%;
+  color: #666;
+  white-space: nowrap;
+  line-height: 60px;
+  font-family: "MYingHei W5", SlateForOnePlusRegular, "Microsoft YaHei", Arial, sans-serif;
+  font-weight: 400;
+}
+.cube-float .buynow .goods-detail .title .choose-arrow ::after {
+  content: "";
+  width: 10px;
+  height: 2px;
+  background-color: #000;
+  display: inline-block;
+  transform: rotate(-45deg);
+  position: absolute;
+  left: 20%;
+  color: #666;
+  white-space: nowrap;
+  line-height: 60px;
+  font-family: "MYingHei W5", SlateForOnePlusRegular, "Microsoft YaHei", Arial, sans-serif;
+  font-weight: 400;
+}
+.cube-float .buynow .goods-detail .title .choose-info {
+  color: #666;
+  white-space: nowrap;
+  line-height: 60px;
+  font-family: "MYingHei W5", SlateForOnePlusRegular, "Microsoft YaHei", Arial, sans-serif;
+  font-weight: 400;
+}
+.cube-float .buynow .price {
+  display: block;
+  margin: 0 30px;
+  float: left;
+  line-height: 60px;
+  font-family: "MYingHei W5", SlateForOnePlusRegular, "Microsoft YaHei", Arial, sans-serif;
+  color: #10181f;
+  font-weight: 400;
+}
+.cube-float .buynow .price i {
+  font-family: "MYingHei W5", SlateForOnePlusRegular;
+  font-size: 22px;
+  margin-bottom: 40px;
+  text-indent: -8px;
+  font-style: normal;
+  line-height: 60px;
+  color: #10181f;
+  font-weight: 400;
+}
+.cube-float .buynow .buybtns {
+  margin-right: 20px;
+  line-height: 60px;
+  font-family: "MYingHei W5", SlateForOnePlusRegular, "Microsoft YaHei", Arial, sans-serif;
+  color: #10181f;
+  font-weight: 400;
+}
+.cube-float .buynow .buybtns .buybuybuy {
+  width: 118px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 14px;
+  background: #eb0028;
+  color: #fff;
+  border: 1px solid #d70226;
+  border-radius: 0;
+  transition: color 0.15s ease 0s;
+  position: relative;
+  z-index: 1;
+  margin-right: 20px;
+  display: inline-block;
+  font-family: "MYingHei W5", SlateForOnePlusRegular, "Microsoft YaHei", Arial, sans-serif;
+  font-weight: 400;
+}
+#baozhang-wraf {
+  width: 1200px;
+  height: 136px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 0 50px;
+}
+#baozhang-wraf a {
+  display: block;
+}
+#baozhang-wraf a h4 {
+  font-size: 42px;
+  line-height: 90px;
+  text-align: center;
+  color: black;
+}
+#baozhang-wraf a h5 {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: black;
+}
+footer {
+  border-top: 1px solid #ccc;
+}
+footer .container-text {
+  width: 1200px;
+  height: 340px;
+  margin: 0 auto;
+}
+footer .container-text dl {
+  width: 20%;
+  float: left;
+}
+footer .container-text dl dt {
+  padding: 0 20px;
+  font-size: 1pc;
+  height: 50px;
+  line-height: 50px;
+  position: relative;
+  color: #000;
+  font-family: MYingHei W5, Roman-55, Microsoft Yahei, sans-serif;
+}
+footer .container-text dl dd {
+  height: auto;
+  overflow: hidden;
+  transition: height 0.3s;
+  padding: 0 20px;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 1pc;
+}
+footer .container-text dl dd ul {
+  padding-bottom: 10px;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 1pc;
+  font-family: MYingHei W5, Roman-55, Microsoft Yahei, sans-serif;
+  line-height: 1.5;
+}
+footer .container-text dl dd ul li {
+  padding: 8px 0;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 1pc;
+  font-family: MYingHei W5, Roman-55, Microsoft Yahei, sans-serif;
+  line-height: 1.5;
+}
+footer .container-text dl dd ul li a {
+  color: #828282;
+  display: block;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 1pc;
+  font-family: MYingHei W5, Roman-55, Microsoft Yahei, sans-serif;
+  line-height: 1.5;
+}
+footer .container-text dl dd ul li a:hover {
+  color: black;
+}
+footer .contact-us {
+  padding: 20px;
+  width: 1160px;
+  height: 40px;
+  margin: 0 auto;
+}
+footer .contact-us .retailer-entry {
+  float: left;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  font-family: MYingHei W5, Roman-55, Microsoft Yahei, sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+  color: black;
+}
+footer .contact-us .retailer-entry a {
+  color: #09c;
+}
+footer .contact-us .customer-support {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  float: right;
+  font-family: MYingHei W5, Roman-55, Microsoft Yahei, sans-serif;
+  font-size: 1pc;
+  line-height: 1.5;
+  color: #000;
+}
+footer .contact-us .customer-support .btn-container {
+  display: inline-block;
+  margin: 0;
+  padding-left: 1em;
+  vertical-align: middle;
+}
+footer .contact-us .customer-support .btn-container span {
+  color: #09c;
+  float: left;
+}
+footer .contact-us .customer-support .btn-container p {
+  padding-right: 1em;
+  font-size: 14px;
+  color: #222;
+  display: inline-block;
+  margin: 0;
+  padding-left: 1em;
+  vertical-align: middle;
+  font-family: MYingHei W5, Roman-55, Microsoft Yahei, sans-serif;
+}
+footer .contact-us .customer-support .btn-container .link {
+  position: relative;
+  display: inline-block;
+  color: #828282;
+  background-color: transparent;
+  text-decoration: none;
+  line-height: 1.5;
+  font-weight: 400;
+}
+footer .contact-us .customer-support .btn-container .link .link-wechat {
+  position: relative;
+}
+footer .contact-us .customer-support .btn-container .link .link-wechat img {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: -120px;
+  left: -35px;
+}

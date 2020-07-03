@@ -1,0 +1,36 @@
+/* 确定字符编码 */
+@charset "utf-8";
+/* 重置样式 */
+*{
+    padding: 0;
+    margin: 0;
+}
+/* 清除加粗 */
+h1,h2,h3,h4,h5,h6{
+    font-size: 16px;
+    font-weight: normal;
+}
+/* 去掉列表符号 */
+ul,ol,li{
+    list-style: none;
+}
+/* 清除加粗 */
+b,strong{
+    font-weight: normal;
+}
+/* 清除倾斜 */
+em,i{
+    font-style: normal;
+}
+/* 去掉下划线 */
+a,u{
+    text-decoration: none;
+}
+/* 清除图片在有超链接的时候，存在一个蓝色的边框 */
+img{
+    border: 0;
+}
+/* 清除输入框在聚焦的时候的边框 */
+input{
+    outline: none;
+}
