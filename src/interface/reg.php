@@ -19,10 +19,10 @@
 
     if($result->num_rows>0){ // 判断有无结果
         // 说明查询到了这个用户名
-        echo '<script>alert("用户名已存在");</script>';
-        echo '<script>location.href="../html/reg.html";</script>';
+        echo '{"msg":"用户名已存在","status":false}';
+        // echo '<script>location.href="../html/reg.html";</script>';
         $mysqli->close();
-        // die;
+        die;
     }
 
     // 将用户传递过来的数据 写入数据库

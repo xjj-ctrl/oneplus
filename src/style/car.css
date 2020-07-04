@@ -1,0 +1,448 @@
+header #head-site {
+  width: 1226px;
+  height: 60px;
+  margin: 0 auto;
+}
+header #head-site .head-logo {
+  display: block;
+  width: 140px;
+  height: 60px;
+  margin: 20px 10px;
+  font-size: 20px;
+  color: #f50514;
+  line-height: 40px;
+  font-weight: 800;
+  text-align: center;
+  font-family: MYingHei W5, Roman-55, Microsoft Yahei, sans-serif;
+  float: left;
+}
+header #head-site .head-logo a {
+  width: 140px;
+  height: 60px;
+  color: #f50514;
+}
+header #head-site .head-logo a img {
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+header #head-site .head-con {
+  width: 660px;
+  height: 60px;
+  float: left;
+  padding-left: 100px;
+  position: relative;
+}
+header #head-site .head-con .nav1 {
+  list-style: none;
+  width: 660px;
+  height: 60px;
+}
+header #head-site .head-con .nav1 li {
+  height: 60px;
+  padding: 5px 9px;
+  float: left;
+  line-height: 60px;
+}
+header #head-site .head-con .nav1 li:hover .nav2 {
+  display: block;
+}
+header #head-site .head-con .nav1 li a {
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 60px;
+  height: 60px;
+  min-width: 60px;
+  font-weight: 400;
+  color: #000;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+}
+header #head-site .head-con .nav1 li a .series-new {
+  display: inline-block;
+  border: 1px solid #000;
+  line-height: 1;
+  padding: 1px 2px;
+  border-radius: 5px;
+  transform: scale(0.7);
+}
+header #head-site .head-con .nav1 li .nav2 {
+  position: absolute;
+  display: block;
+  width: 1226px;
+  height: 120px;
+  top: 60px;
+  left: -183px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+  background: #fff;
+  display: none;
+}
+header #head-site .head-con .nav1 li .nav2 li {
+  display: block;
+  height: 100px;
+}
+header #head-site .head-con .nav1 li .nav2 li :hover {
+  color: #f50514;
+}
+header #head-site .head-con .nav1 li .nav2 li a {
+  position: relative;
+  padding: 0 10px;
+}
+header #head-site .head-con .nav1 li .nav2 li a .iconfont {
+  padding: 0 10px;
+  font-size: 50px;
+  line-height: 60px;
+  float: left;
+  text-align: center;
+}
+header #head-site .head-con .nav1 li .nav2 li a .series-new {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  border: 1px solid #000;
+  line-height: 1;
+  padding: 1px 4px;
+  border-radius: 5px;
+  transform: scale(0.6);
+  font-style: normal;
+}
+header #head-site .head-con .nav1 li .nav2 li a div {
+  display: block;
+}
+main {
+  background: #f9f9f9;
+}
+main .con-text {
+  width: 1200px;
+  display: block;
+  margin: 0 auto;
+  font-family: "MYingHei W5", "SlateForOnePlusRegular", "Microsoft YaHei", Arial, sans-serif;
+  font-size: 16px;
+  color: #828282;
+  line-height: 1.5;
+  background: #fff;
+}
+main .con-text .car-head {
+  height: 70px;
+  line-height: 70px;
+  border-bottom: 1px solid #dfdfdf;
+  color: #101920;
+  padding: 0 30px;
+  font-size: 18px;
+  text-align: left;
+  background: #fff;
+}
+main .con-text ul {
+  margin-bottom: 20px;
+  padding-left: 0;
+  list-style: none;
+  font-size: 16px;
+  color: #828282;
+  line-height: 1.5;
+}
+main .con-text ul li {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+main .con-text ul li .main-name {
+  color: #101920;
+  white-space: normal;
+  padding: 10px;
+  padding-right: 0px;
+  text-align: center;
+  width: 37.5%;
+  font-size: 16px;
+  line-height: 1.5;
+}
+main .con-text ul li .main-price {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #101920;
+  text-align: center;
+  white-space: normal;
+}
+main .con-text ul li .main-num {
+  margin-top: 1px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 24px;
+  border: 1px solid transparent;
+  padding: 0;
+  width: 32px;
+  text-align: center;
+  border-radius: 0;
+  background: transparent;
+  font-size: 14px;
+  line-height: 1.7;
+}
+main .con-text ul li .main-sumprice {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  text-align: center;
+  white-space: normal;
+  color: #828282;
+}
+main .con-text ul li .main-remove {
+  cursor: pointer;
+  display: block;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  font-weight: normal;
+  text-align: center;
+  color: #828282;
+  line-height: 1.5;
+}
+main .con-text .cart-sum {
+  width: 1100px;
+  height: 200px;
+  padding: 0 50px;
+  font-size: 16px;
+  color: #828282;
+  line-height: 1.5;
+}
+main .con-text .cart-sum .font-body-l {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #828282;
+  float: left;
+}
+main .con-text .cart-sum .font-body-l span {
+  color: #101920;
+  font-size: 14px;
+  line-height: 1.7;
+}
+main .con-text .cart-sum .font-body-r {
+  width: 410px;
+  height: 200px;
+  float: right;
+}
+main .con-text .cart-sum .font-body-r h3,
+main .con-text .cart-sum .font-body-r h4 {
+  padding-top: 26px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-family: "MYingHei W5", "SlateForOnePlusRegular", "Microsoft YaHei", Arial, sans-serif;
+  color: #828282;
+  line-height: 1.7;
+}
+main .con-text .cart-sum .font-body-r h3 span,
+main .con-text .cart-sum .font-body-r h4 span {
+  float: right;
+  margin-top: -12px;
+  color: #101920;
+  font-size: 24px;
+  line-height: 1.5;
+}
+main .con-text .cart-sum .font-body-r .charge-btns {
+  height: 54px;
+}
+main .con-text .cart-sum .font-body-r .charge-btns .btn-l {
+  float: left;
+  width: calc(50% - 5px);
+  padding: 0;
+  border-radius: 3px;
+  height: 54px;
+  line-height: 54px;
+  background-color: transparent;
+  border-color: #101920;
+  color: #101920;
+  transition: 0.25s;
+  margin-bottom: 0;
+  font-weight: 300;
+  text-align: center;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  white-space: nowrap;
+  border: 1px solid;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+}
+main .con-text .cart-sum .font-body-r .charge-btns .btn-r {
+  float: right;
+  width: calc(50% - 5px);
+  padding: 0;
+  border-radius: 3px;
+  height: 54px;
+  line-height: 54px;
+  background-color: #eb0028;
+  color: #fff;
+  margin-bottom: 0;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  white-space: nowrap;
+  border: 1px solid transparent;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+}
+#baozhang-wraf {
+  width: 1200px;
+  height: 136px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 0 50px;
+}
+#baozhang-wraf a {
+  display: block;
+}
+#baozhang-wraf a h4 {
+  font-size: 42px;
+  line-height: 90px;
+  text-align: center;
+  color: black;
+}
+#baozhang-wraf a h5 {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: black;
+}
+footer {
+  border-top: 1px solid #ccc;
+}
+footer .container-text {
+  width: 1200px;
+  height: 340px;
+  margin: 0 auto;
+}
+footer .container-text dl {
+  width: 20%;
+  float: left;
+}
+footer .container-text dl dt {
+  padding: 0 20px;
+  font-size: 1pc;
+  height: 50px;
+  line-height: 50px;
+  position: relative;
+  color: #000;
+  font-family: MYingHei W5, Roman-55, Microsoft Yahei, sans-serif;
+}
+footer .container-text dl dd {
+  height: auto;
+  overflow: hidden;
+  transition: height 0.3s;
+  padding: 0 20px;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 1pc;
+}
+footer .container-text dl dd ul {
+  padding-bottom: 10px;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 1pc;
+  font-family: MYingHei W5, Roman-55, Microsoft Yahei, sans-serif;
+  line-height: 1.5;
+}
+footer .container-text dl dd ul li {
+  padding: 8px 0;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 1pc;
+  font-family: MYingHei W5, Roman-55, Microsoft Yahei, sans-serif;
+  line-height: 1.5;
+}
+footer .container-text dl dd ul li a {
+  color: #828282;
+  display: block;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 1pc;
+  font-family: MYingHei W5, Roman-55, Microsoft Yahei, sans-serif;
+  line-height: 1.5;
+}
+footer .container-text dl dd ul li a:hover {
+  color: black;
+}
+footer .contact-us {
+  padding: 20px;
+  width: 1160px;
+  height: 40px;
+  margin: 0 auto;
+}
+footer .contact-us .retailer-entry {
+  float: left;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  font-family: MYingHei W5, Roman-55, Microsoft Yahei, sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+  color: black;
+}
+footer .contact-us .retailer-entry a {
+  color: #09c;
+}
+footer .contact-us .customer-support {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  float: right;
+  font-family: MYingHei W5, Roman-55, Microsoft Yahei, sans-serif;
+  font-size: 1pc;
+  line-height: 1.5;
+  color: #000;
+}
+footer .contact-us .customer-support .btn-container {
+  display: inline-block;
+  margin: 0;
+  padding-left: 1em;
+  vertical-align: middle;
+}
+footer .contact-us .customer-support .btn-container span {
+  color: #09c;
+  float: left;
+}
+footer .contact-us .customer-support .btn-container p {
+  padding-right: 1em;
+  font-size: 14px;
+  color: #222;
+  display: inline-block;
+  margin: 0;
+  padding-left: 1em;
+  vertical-align: middle;
+  font-family: MYingHei W5, Roman-55, Microsoft Yahei, sans-serif;
+}
+footer .contact-us .customer-support .btn-container .link {
+  position: relative;
+  display: inline-block;
+  color: #828282;
+  background-color: transparent;
+  text-decoration: none;
+  line-height: 1.5;
+  font-weight: 400;
+}
+footer .contact-us .customer-support .btn-container .link .link-wechat {
+  position: relative;
+}
+footer .contact-us .customer-support .btn-container .link .link-wechat img {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: -120px;
+  left: -35px;
+}

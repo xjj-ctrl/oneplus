@@ -1,0 +1,26 @@
+{
+  "name": "onePlus.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xjj-ctrl/oneplus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xjj-ctrl/oneplus/issues"
+  },
+  "homepage": "https://github.com/xjj-ctrl/oneplus#readme",
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "require": "^2.4.20",
+    "require.js": "^1.0.0",
+    "requirejs": "^2.3.6"
+  }
+}

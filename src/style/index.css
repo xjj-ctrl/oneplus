@@ -364,98 +364,26 @@ header #head-site .head-search .icon-fangdajing {
 #main-wraf .news {
   margin: 20px auto 0;
 }
-#main-wraf .news .new1 {
+#main-wraf .news .new {
   width: 600px;
   height: 500px;
-  background: url(../img/Trade-in-Tile_large.jpg) no-repeat center center;
-  background-size: 200%;
   float: left;
 }
-#main-wraf .news .new1 h4 {
+#main-wraf .news .new h4 {
   padding-top: 40px;
   font-size: 24px;
   line-height: 1.5;
   text-align: center;
   color: black;
 }
-#main-wraf .news .new1 h5 {
+#main-wraf .news .new h5 {
   padding-top: 10px;
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
   color: black;
 }
-#main-wraf .news .new2 {
-  width: 600px;
-  height: 500px;
-  background: url(../img/fenqile_large.jpg) no-repeat center center;
-  background-size: 200%;
-  float: right;
-}
-#main-wraf .news .new2 h4 {
-  padding-top: 40px;
-  font-size: 24px;
-  line-height: 1.5;
-  text-align: center;
-  color: black;
-}
-#main-wraf .news .new2 h5 {
-  padding-top: 10px;
-  font-size: 18px;
-  line-height: 1.5;
-  text-align: center;
-  color: black;
-}
-#main-wraf .news .new3 {
-  width: 600px;
-  height: 500px;
-  background: url(../img/Student-program-Tile_large.jpg) no-repeat center center;
-  background-size: 200%;
-  float: left;
-}
-#main-wraf .news .new3 h4 {
-  padding-top: 40px;
-  font-size: 24px;
-  line-height: 1.5;
-  text-align: center;
-  color: white;
-}
-#main-wraf .news .new3 h5 {
-  padding-top: 10px;
-  font-size: 18px;
-  line-height: 1.5;
-  text-align: center;
-  color: white;
-}
-#main-wraf .news .new3 h6 {
-  padding-top: 6px;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
-  color: white;
-}
-#main-wraf .news .new4 {
-  width: 600px;
-  height: 500px;
-  background: url(../img/store_l.jpg) no-repeat center center;
-  background-size: 200%;
-  float: right;
-}
-#main-wraf .news .new4 h4 {
-  padding-top: 40px;
-  font-size: 24px;
-  line-height: 1.5;
-  text-align: center;
-  color: black;
-}
-#main-wraf .news .new4 h5 {
-  padding-top: 10px;
-  font-size: 18px;
-  line-height: 1.5;
-  text-align: center;
-  color: black;
-}
-#main-wraf .news .new4 h6 {
+#main-wraf .news .new h6 {
   padding-top: 6px;
   font-size: 16px;
   line-height: 1.5;
