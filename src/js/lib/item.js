@@ -8,7 +8,7 @@ define(['jquery', 'cookie'], function ($, cookie) {
                 url: `${baseUrl}/src/interface/getpro.php`,
                 dataType: "json",
                 success: function (response) {
-                    console.log(response);
+                    // console.log(response);
                     let temp1 = "";
 
                     response.forEach(elm => {
@@ -21,28 +21,57 @@ define(['jquery', 'cookie'], function ($, cookie) {
                     $('.ul-list li:first-child').addClass("active");
                     $('.ul-list>li').click(function () {
                         $('.ul-list>li').removeClass("active");
-                        console.log($(this));
+                        // console.log($(this));
                         $(this).addClass("active");
                         $('.main-tit-head h4').html($(this).attr("price"));
                     })
-
-                    callback && callback(response.title, response.price);
-                    console.log(response.title, response.price);
+                    // console.log(response);
+                    callback && callback();
+                    // console.log(response.id,response.title, response.price);
                 }
 
             })
 
         },
 
-        buypro: function (title, price) {
+        buypro: function () {
 
-            console.log(cookie);
-            let product = {
-                title: title,
-                price: price
-            }
+            $('.buybuybuy').on('click', function () {
+                // console.log($('.active').attr("price"));
+                // console.log($('.active').html());
+                console.log(cookie);
 
-            console.log(product);
+                let shop = cookie.get('shop');
+
+
+
+                let str = {
+                    detalls: $('.active').html(),
+                    price: $('.active').attr("price")
+                }
+
+                if (shop) {
+                    shop = JSON.parse(shop);
+                    // shop.push(str);
+                    if (shop.some(elm => elm.detalls == str.detalls)) {}
+                    else {shop.push(str)}
+                }
+                else {
+                    shop = [];
+                    shop.push(str);
+                }
+
+                cookie.set('shop', JSON.stringify(shop), 1);
+                // console.log(str);
+                // console.log( $('.main-tit-head h4').html());
+                // let product = {
+                //     title: title,
+                //     price: price
+                // }
+
+                // console.log(product);
+            })
+
         }
     }
 

@@ -147,6 +147,7 @@ main .con-text ul {
 }
 main .con-text ul li {
   display: flex;
+  border: 1px solid black;
   justify-content: space-between;
   text-align: center;
 }

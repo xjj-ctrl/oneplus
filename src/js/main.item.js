@@ -9,16 +9,16 @@ require.config({
 
 require(['jquery' , 'item'],function($,item){
     // console.log('a')
-    item.render(function(title,price){
-        $('.buybuybuy').on('click',function(){
-            item.buypro(title,price);
+    item.render(function(){
+        // $('.buybuybuy').on('click',function(){
+            item.buypro();
             // let pro = {
             //     name: $('.active').innerHtml,
             //     price: $('.active').price
             // };
 
             // document.cookie = pro;
-        })
+        // })
         
     });
     
